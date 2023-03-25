@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "author": "",
+  "license": "",
+  "scripts": {
+    "start": "nodemon server.js",
+    "tes": "nodemon test.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.12",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.8.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "multiparty": "^4.2.3"
+  }
+}
